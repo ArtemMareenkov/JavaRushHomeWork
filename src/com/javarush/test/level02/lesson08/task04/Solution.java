@@ -11,9 +11,9 @@ public class Solution
     public static int min(int a, int b, int c, int d)
     {
         int m = min(a,b);
-        if (m<c & m<d)
+        if (m < c & m<d)
             return m;
-        if (c<m & c<d)
+        if (c < m & c < d )
             return c;
         else
             return d;
@@ -22,12 +22,12 @@ public class Solution
 
     public static int min(int a, int b)
     {
-        int m2;
-        if (a<b)
-            m2=a;
+        if (a < b)
+            return a;
         else
-            m2=b;
-        return m2;
+            return b;
+
+
     }
 
     public static void main(String[] args) throws Exception

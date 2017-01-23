@@ -7,7 +7,7 @@ public class Solution
 {
     public static void main(String[] args)
     {
-       sum(2,2);
+        sum(2,2);
     }
 
     public static void sum(int a, int b)

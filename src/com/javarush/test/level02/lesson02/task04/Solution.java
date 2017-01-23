@@ -16,7 +16,7 @@ public class Solution
 
     public static void salary(int a)
     {
-        a += 100;
-        System.out.println("Твоя зарплата составляет: " +a+ " долларов в месяц.");
+        a+=100;
+        System.out.println("Твоя зарплата составляет: "  + a + " долларов в месяц.");
     }
 }

@@ -11,7 +11,8 @@ public class Solution
     {
         if (a>b)
             return a;
-        else return b;
+        else
+            return b;
     }
 
     public static void main(String[] args) throws Exception
