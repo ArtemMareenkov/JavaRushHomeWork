@@ -8,6 +8,18 @@ public class Solution
 {
     public static void main(String[] args)
     {
-        //напишите тут ваш код
+        print5Times("Я не хочу изучать Java, я хочу большую зарплату");
+        print5Times("Я не хочу изучать Java, я хочу большую зарплату");
+    }
+
+    private static void print5Times(String s){
+        System.out.println(s);
+        System.out.println(s);
+        System.out.println(s);
+        System.out.println(s);
+        System.out.println(s);
+
+    }
+    {
     }
 }
